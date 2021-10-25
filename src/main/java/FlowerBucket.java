@@ -12,6 +12,6 @@ public class FlowerBucket {
         for (FlowerPack flowerPack: flowerPacks) {
             price += flowerPack.getPrice();
         }
-        flower.setPrice(price);
+        this.setPrice(price);
     }
 }
