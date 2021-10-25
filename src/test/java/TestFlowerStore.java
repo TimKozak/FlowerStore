@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class FlowerStoreTest {
+public class TestFlowerStore {
     private Flower[] flowers = new Flower[4];
     private FlowerStore flowerStore = new FlowerStore(new Flower[4]);
 
